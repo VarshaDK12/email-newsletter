@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
 :root{
-    background-color: burlywood;
+    
 }
 
 
@@ -136,4 +136,43 @@ margin-top: 0.8rem;
 }
 .news-letter input[type="email"]:focus{
  outline: none;
+}
+
+
+/* card styling */
+.cards{
+    padding: 1rem 0;
+    margin: 1rem 0;
+
+}
+.cards .container{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    
+}
+.cards .container .card{
+    width: 32%;
+    margin: 0 0.5rem;
+    padding: 0 0.5rem;
+
+}
+.cards .container .card i{
+    color: lightskyblue;
+    padding-bottom: 1rem;
+
+}
+.cards .container .card h3{
+    font-size: 1.2rem;
+    padding-bottom: 1rem;
+}
+.cards .container .card p{
+    padding-bottom: 1rem;
+}
+
+footer{
+    padding: 2rem;
+    margin-top: 2rem;
+    color: cornsilk;
+
 }
